@@ -1,0 +1,134 @@
+
+/*For desktop*/
+.col-1 {width:8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/*.............
+.....navbar starts...*/
+.nav-logo{
+    text-align: left;
+    margin-top: 10px ;
+}
+
+
+.nav-heading h1{
+    text-align: right;
+}
+
+.nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-menu a{
+    padding: 5px 10px;
+    margin: 20px 5px;
+    background-color: transparent;
+}
+/*.............
+.....navbar ends...*/
+
+/*......................
+..profile desin start..*/
+
+.profile .top-weather{
+    right: 100px;
+    width: 170px;
+    transition: width 2s,transform 2s;
+}
+.profile .buttom-weather{
+    left: 120px;
+    bottom: 20px;
+    width: 170px;
+    transition: width 2s,transform 2s;
+}
+.profile .top-weather:hover{
+    width: 200px;
+}
+.profile .buttom-weather:hover{
+    width: 200px;
+}
+
+.profile p{
+    color: gray;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+
+/*......................
+..profile desin ends..*/
+
+/*......................
+..About me desin start..*/
+
+.aboutme-image{
+    margin-top: 100px;
+}
+
+.aboutme-image .tanvir{
+    height: 270px;
+    width: 250px;
+}
+.aboutme-desc{
+    text-align: left;
+}
+
+
+
+/*......................
+..About me desin ends..*/
+
+/*professional esperience starts*/
+
+.professional-experience{
+    padding: 1% 7%;
+}
+
+
+/*professional esperience ends*/
+
+/*achievement-contact starts here*/
+
+.achievement{
+    padding-right: 50px;
+}
+
+.contact button{
+    width: :150px;
+}
+.contact button:hover{
+    background-color: blueviolet;
+}
+.contact-links{
+    position: relative;
+}
+.media-button{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 200px;
+}
+
+/*achievement-contact ends here*/
+
+/*..Footer ends from here*/
+.footer-menu{
+    margin-top: 12px;
+}
+
+.footer-menu a{
+    display: inline;
+    margin: 10px;
+}
+
+/*..Footer ends from here*/
